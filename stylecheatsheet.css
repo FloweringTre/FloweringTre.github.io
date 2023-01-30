@@ -1,0 +1,121 @@
+* {
+    font-family: 'Source Code Pro', 'Lucida Grande', monospace;
+    background-color: #101214;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    text-align: left;
+    margin: 5%;
+}
+
+header {
+    background-image: url("https://apod.nasa.gov/apod/image/2011/ISSlunartransit110320closeup.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Itim', cursive;
+    font-size: 60px;
+    background-color: transparent;
+    padding-top: 80px;
+    text-align: center;
+    position: relative;
+}
+
+header h2 {
+    background-color: transparent;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+article {
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+h3, h3 em {
+    font-family: 'Itim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #81b2e3;
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+    font-size: 20px;
+    background-color: #0b1b2b;
+    color: #81b2e3;
+    padding: 20px;
+}
+
+footer {
+    background-image: url("https://apod.nasa.gov/apod/image/2301/C2022E3ZTFMountEtna1024.jpg");
+    padding: 20px;
+    background-size: cover;
+    width: 100%;
+}
+
+footer p, footer a {
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    position: relative;
+}
+
+th {
+    border: 2px solid #1f3a54;
+    font-size: 19px;
+    padding: 5px 20px;
+    background-color: #0b1b2b;
+    color: #d8e5f2;
+    min-width: 130px;
+}
+
+td {
+    border: 2px solid #1f3a54;
+    font-size: 16px;
+    padding: 5px;
+    text-align: left;
+    background-color: transparent;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1c2126;
+}
+
+tbody tr:nth-child(odd), tbody tr:nth-child(odd) u {
+    background-color: #12161a;
+}
+
+tbody tr:hover, tbody tr:hover {
+    background-color: #1f3a54;
+    color: #81b2e3;
+}
+
+table {
+    text-align: center;
+    max-width: 1100px;
+    margin: 3% auto;
+    border-collapse: collapse;
+}
+
+.tablesem {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.goodbye {
+    font-family: 'Itim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #81b2e3;
+    text-align: center;
+}

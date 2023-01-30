@@ -1,0 +1,147 @@
+<!-- This project is to make a cheatsheet that looks nice with css-->
+<!-- This cheatsheet is dedicated to semantic html elements-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\aramo\Desktop\CodePrjkts\CheatsheetProject\stylecheatsheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Semantic HTML CheatSheet</title>
+</head>
+<body>
+    <nav>
+        <a href="https://floweringtre.github.io/">Back to Main Page</a>
+    </nav>
+    <header>
+        <h1>Semantic HTML</h1>
+        <h2>An HTML Cheatsheet</h2>
+    </header>
+    <main>
+        <section>
+            <article>
+                <!--<h2>Semantic HTML</h2> -->
+                <p>
+                    <strong>The goals of Semantic HTML</strong> are to create meaningul elements in the code that: 
+                    <ol>
+                        <li>help screen readers navigate our pages</li>
+                        <li>help other coders understand our code</li>
+                        <li>improve SEO of our website</li>
+                    </ol>
+                    An additional helpful feature of semantic HTML is that it gives more specific references to our items so we have an easier time with our CSS. 
+                </p>
+                <h3>How can HTML be <em>Semantic</em>?</h3>
+                <p>
+                    Semantic as defined by Google is <em>"relating to meaning in language or logic."</em> In this case we are creating and HTML code with meanings embedded into it. Semantic HTML replaces the &lt;div&gt; elements. As a reminder, &lt;div&gt; is an element that we use to group items on our page. However, since it is a basic element with no helpful information inside of it, we have to use <u>attributes</u>. These are the id and class tags that are added within the &lt;div&gt; element. This may appear like 
+                </p>
+                    <blockquote>
+                        &lt;div id='nav'&gt;&lt;/div&gt;
+                    </blockquote>
+                <p>A replacement of this code in semantic HTML would appear like</p>
+                    <blockquote>
+                        &lt;nav&gt;&lt;/nav&gt;
+                    </blockquote>
+                <p>
+                    This difference helps both front and back end users interact with your website. As previously mentioned, a screen reader can help users interact with your website navigation easier since it is outlined specifically in your code. The next programmer to look at your code would easily find your navigation code for updating purposes. Finally when you are making the stylesheet for your website, you have elements rather than class tags to help yourself with styling. 
+                </p>
+            </article>
+            <h3 class="tablesem">Semantic Elements</h3>
+            <p class="tablesem">Remeber that all of these elements are in replacement of the &lt;div&gt; grouping element.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Element Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;article&gt;</td>
+                        <td>Article</td>
+                        <td>An element of material that is self contained. Normally for blog posts or magazine/newspaper articles.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;aside&gt;</td>
+                        <td>Aside</td>
+                        <td>Not apart of the current content but related to it (ie: Ads, related links, etc).</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;details&gt;</td>
+                        <td>Details</td>
+                        <td>Wraps the &lt;summary&gt; element along with all items inside. Only shows the summary element unless opened.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figcaption&gt;</td>
+                        <td>Figure Caption</td>
+                        <td>Describes the figure that is in the &lt;figure&gt; element.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figure&gt;</td>
+                        <td>Figure</td>
+                        <td>Used to wrap media (ie: images, diagrams, code, etc).</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>Footer</td>
+                        <td>Represents the bottom of the website. Normally for copyright & additional information/links for the site.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>Header</td>
+                        <td>Represents the top of the website. Normally for items like search bars, logos, and heading tags.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;main&gt;</td>
+                        <td>Main</td>
+                        <td>Represents the main part of the website.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;mark&gt;</td>
+                        <td>Mark</td>
+                        <td>An inline element used to highlight text (yellow highlight & black text). Can be restyled with CSS.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;nav&gt;</td>
+                        <td>Navigation</td>
+                        <td>Used to block items for website navigation.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;section&gt;</td>
+                        <td>Section</td>
+                        <td>This is used to enclose parts of the page. Helpful if there are multiple articles on one page.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;summary&gt;</td>
+                        <td>Summary</td>
+                        <td>Used with the &lt;details&gt; element. Shows only this element when &lt;details&gt; is closed.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;time&gt;</td>
+                        <td>Time</td>
+                        <td>Used to enclose date and time information. Can be used with the <u>datetime</u> attribute.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="goodbye">
+                I hope this mini cheatsheet is helpful. Whatever you are working on, you got this. :)
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>
+            This website was made by me. #nostealing <br>
+            <br>
+            Additonal Semantic HTML infromation can be found <a href="https://www.codecademy.com/resources/docs/html/semantic-html" target="_blank">at Codecademy</a>. This site was used to help build this cheatsheet.
+            <br>
+            Photo Credits on this page go to <a href="https://apod.nasa.gov/apod/archivepix.html">NASA's Archive Photo Gallery</a>. Used to enhance this informational page. 
+        </p>
+    </footer>
+</body>
+</html>
