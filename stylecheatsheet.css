@@ -10,6 +10,10 @@ nav {
     margin: 5%;
 }
 
+nav a:hover {
+    color: #81b2e3;
+}
+
 header {
     background-image: url("https://apod.nasa.gov/apod/image/2011/ISSlunartransit110320closeup.jpg");
     background-position: center;
@@ -68,6 +72,10 @@ footer p, footer a {
     color: white;
     background-color: transparent;
     position: relative;
+}
+
+footer a:hover {
+    color: #81b2e3;
 }
 
 th {
