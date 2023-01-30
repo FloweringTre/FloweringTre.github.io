@@ -1,9 +1,79 @@
 * {
- text-align: center;
- font-family: 'Century Gothic', serif;
- background-color: #101214
-  }
+    text-align: center;
+    font-family: 'Source Code Pro', 'Lucida Grande', monospace;
+    background-color: #101214;
+    color: white;
+     }
 
-h1, h2, p {
- color: white;
-  }
+
+header {
+    background-image: url("https://apod.nasa.gov/apod/image/2211/LastRingPortrait_Cassini_4472.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Itim', Tahoma, sans-serif;
+    font-size: 45px;
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+header h2 {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.projects { 
+    display: flex;
+    width: 95%;
+} 
+.child { 
+    flex: 1;
+    align-items: center;
+    margin: 1% 3%; 
+;
+}
+
+footer {
+    background-image: url("https://apod.nasa.gov/apod/image/1703/LBN782ProcessedLRv1-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+footer p, footer p a {
+    background-color: transparent;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.goodbye {
+    font-family: 'Itim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #c2e892;
+    text-align: center;
+}
+
+details summary, details summary a {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+details summary:hover, details summary a:hover{
+    color: #cbeba1;
+}
+
+details p {
+    color: #e7f7d2;
+}
+
+h3, h3 em {
+    font-family: 'Itim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: #c2e892;
+    text-align: center;
+}
