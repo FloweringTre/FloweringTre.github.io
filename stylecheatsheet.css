@@ -1,7 +1,7 @@
 * {
     font-family: 'Source Code Pro', 'Lucida Grande', monospace;
     background-color: #101214;
-    color: white;
+    color: #fff;
 }
 
 nav {
@@ -69,7 +69,7 @@ footer {
 
 footer p, footer a {
     text-align: center;
-    color: white;
+    color: #fff;
     background-color: transparent;
     position: relative;
 }
@@ -83,7 +83,7 @@ th {
     font-size: 19px;
     padding: 5px 20px;
     background-color: #0b1b2b;
-    color: #d8e5f2;
+    color: #81b2e3;
     min-width: 130px;
 }
 
@@ -99,11 +99,15 @@ tbody tr:nth-child(even) {
     background-color: #1c2126;
 }
 
-tbody tr:nth-child(odd), tbody tr:nth-child(odd) u {
-    background-color: #12161a;
+tbody tr:nth-child(odd) {
+    background-color: inherit;
 }
 
-tbody tr:hover, tbody tr:hover {
+tbody tr u {
+    background-color: inherit;
+}
+
+tbody tr:hover {
     background-color: #1f3a54;
     color: #81b2e3;
 }
