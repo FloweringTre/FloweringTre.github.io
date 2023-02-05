@@ -1,0 +1,264 @@
+* {
+    text-align: center;
+    font-family: 'Source Code Pro', 'Lucida Grande', monospace;
+    background-color: #101214;
+    color: #FFFFFF;
+     }
+header {
+    background-image: url("https://apod.nasa.gov/apod/image/2301/crtastro_0172_2194p.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Itim', cursive;
+    font-size: 60px;
+    background-color: transparent;
+    padding-top: 80px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    text-align: left;
+    padding: 5px 20px;
+}
+
+nav a:hover {
+    color: #81b2e3;
+}
+
+h2 {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+section {
+    text-align: left;
+    border: 2px dashed #81b2e3;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+p {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+h3, h3 em {
+    font-family: 'Itim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #81b2e3;
+    text-align: left;
+    padding-left: 3%;
+}
+
+/* Color Boxes */
+
+.colors div{
+    display: inline-flex;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    vertical-align: middle;
+    border: 1px solid #1c2126;    
+}
+
+.colors div:hover{
+    border: 1px solid #FFFFFF;    
+}
+
+.colors p {
+    background-color: inherit;
+    color: inherit;
+}
+
+#void {
+    background-color: #101214;
+}
+
+#white {
+    background-color: #FFFFFF;
+    color: #101214;
+}
+
+#life {
+    background-color: #e7f7d2;
+    color: #101214;
+}
+
+#leaf {
+    background-color: #c2e892;
+    color: #101214;
+}
+
+#ocean {
+    background-color: #0b1b2b;
+    color: #FFFFFF;
+}
+
+#sea {
+    background-color: #81b2e3;
+    color: #101214;
+}
+
+#cyan {
+    background-color: #1f3a54;
+    color: #FFFFFF;
+}
+
+#gray {
+    background-color: #1c2126;
+    color: #FFFFFF;
+}
+
+/*Fonts*/
+
+.fonts div {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 10px 10px;
+    vertical-align: middle; 
+    border: 1px solid #FFFFFF;
+}
+
+#itim div,
+#calibri div,
+#source div {
+    flex-wrap: wrap;
+    flex: auto;
+    width: 30%;
+}
+
+#itim p,
+#itim b,
+#itim i {
+    font-family: 'Itim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 0px;
+}
+
+#source p,
+#source b, 
+#source i {
+    font-family: 'Source Code Pro', 'Lucida Grande', monospace;
+    text-align: left;
+    font-size: 18px;
+}
+
+#calibri p, 
+#calibri b, 
+#calibri i {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 0px;
+}
+
+#alt p {
+    text-align: left;
+    font-size: 18px;
+    padding-left: 0px;
+}
+
+#alt {
+    border: none;
+}
+
+#alt strong {
+    font-size: 20px;
+    line-height: 0%;
+    padding-left: 20px;
+}
+
+#itim h4 {
+    font-family: 'Itim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 28px;
+    color: #81b2e3;
+    line-height: 0%;
+}
+
+#source h4 {
+    font-family: 'Source Code Pro', 'Lucida Grande', monospace;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 28px;
+    color: #81b2e3;
+    line-height: 0%;
+}
+
+#calibri h4 {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 28px;
+    color: #81b2e3;
+    line-height: 0%;
+}
+
+/*Text Styling*/
+.tstyles div {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0px 10px;
+    vertical-align: middle; 
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+#h1 h1 {
+    font-family: 'Itim', cursive;
+    font-size: 60px;
+}
+
+#h1 div {
+    margin-top: 0;
+}
+
+#h1 li,
+#h2 li,
+#h3 li,
+#p li{
+    text-align: left;
+}
+
+
+#h3 #blue {
+    color: #81b2e3;
+    text-align: inherit;
+}
+
+#h3 #green {
+    color: #c2e892;
+    text-align: inherit;
+}
+
+/*footer & goodbye message*/
+
+footer {
+    background-image: url("https://apod.nasa.gov/apod/image/1703/LBN782ProcessedLRv1-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+footer p, footer p a {
+    text-align: center;
+    background-color: transparent;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.goodbye {
+    font-family: 'Itim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #81b2e3;
+    text-align: center;
+}
